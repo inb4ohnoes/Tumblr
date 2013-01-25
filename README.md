@@ -8,6 +8,8 @@ The production continuation of Robert Dougan's original Thumblr app, by the [App
 
 * Finish the obj-c Tumblr wrapper and open source that as a seperate project
 
+* Make a pretty damn good Tumblr client
+
 * Publish to the App Store (for free)
 
 ## Thanks
