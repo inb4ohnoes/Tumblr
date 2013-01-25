@@ -1,59 +1,19 @@
-# Tumblr for iPad
+# Thumblr - A Tumblr app For iPad
 
-I originally started working on this app over 3 years ago - back when I had no idea what I was doing. There was no Tumblr app for iPad, so I wanted to create one.
+The production continuation of Robert Dougan's original Thumblr app, by the [Approaching ∞](http://approaching.in) team. This branch will be published to the iPad App Store.
 
-3 years on (just before Christmas) I took a notion to start again, as Tumblr *still* had not released a new app. Unfortunately as it was finally coming together, Tumblr got their finger out of their asses and released a lovely iPad app.
+## Current To-Dos
 
-## What exists in the project right now
+* Re-do the entire UI
 
-* An almost complete Objective-C wrapper around the Tumblr API, which uses AFNetworking. Fetching and creating posts is all there, along with liking and fetching liked posts. You can also fetch posts for a specific blog.
-* It also uses the Google OAuth1 authentication code to actually login.
-* The app uses CoreData, so all the user data is 'automatically' stored. I have already created all the CoreData models for each of the Tumblr post types - this is a ridiculous amount of boilerplate code.
-* A basic UI to:
-	* login
-	* show user information
-	* show the user dashboard
-	* show the users liked posts
-	* show the users blogs
-	* create new posts (only text has been implemented)
-* A UICollectionViewController subclass which handles Tumblr post types. Post types supported right now are:
+* Finish the obj-c Tumblr wrapper and open source that as a seperate project
 
-	* text
-	* photos
-	* photosets
-	* quotes
-	
-	The other types will require some more work, but I believe photosets is the most difficult as you must calculate the positioning of each photo in the set.
+* Publish to the App Store (for free)
 
-## What use is this code to you?
+## Thanks
 
-* You could design and finish the app if you wanted. THe bulk of the app is already here, so it just needs to be finished.
-* Use the app as a guide on how to make real world applications. When learning Objective-C, I found it hard to find real world code or applications to use as a reference.
+Huge thanks to Robert Dougan for his original work. We won't let you down!
 
-## The current UI
+## License
 
-I was planning on designing the UI with my beautiful wife [https://twitter.com/mrsdougan](Sarah Dougan), but of course that was also stopped because of the launch of the offical app.
-
-The current UI is merely a demo of the functionality of the API.
-
-#### Logged out
-
-![logged out](http://f.cl.ly/items/3F0u0a3S133M1F2C100z/Screen%20Shot%202013-01-21%20at%2010.55.02%20PM.png)
-
-#### Logged in
-
-![user information](http://f.cl.ly/items/051n3J422G36310a0X0c/Screen%20Shot%202013-01-21%20at%2010.52.18%20PM.png)
-
-#### Dashboard
-
-![dashboard](http://f.cl.ly/items/2I3e1T390A0h0d0e451z/Screen%20Shot%202013-01-21%20at%2010.52.32%20PM.png)
-
-#### Create Post View
-
-![create post](http://f.cl.ly/items/073U0x1B3z2v3O3V2Q1p/Screen%20Shot%202013-01-21%20at%2010.52.36%20PM.png)
-
-## Licence
-
-This code is released under the [Simplified BSD License](https://github.com/rdougan/Tumblr/blob/master/LICENCE).
-
-If you do happen to use the code, do let me know!
+Open source portions of this code will retain the original license, the [Simplified BSD License](https://github.com/rdougan/Tumblr/blob/master/LICENCE).
